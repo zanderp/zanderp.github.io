@@ -9,6 +9,7 @@ import Contact from './Contact';
 import '../css/main.css';
 import '../css/dark-theme.css';
 import '../css/light-theme.css';
+import '../css/App.css';
 
 function App() {
     const [theme, setTheme] = useState('dark');
@@ -20,7 +21,7 @@ function App() {
 
     return (
         <Router>
-            <div className={`App ${theme}`}>
+            <div className={`App`}>
                 <Header toggleTheme={toggleTheme} />
                 <Routes>
                     <Route path="/" element={<Home />} />

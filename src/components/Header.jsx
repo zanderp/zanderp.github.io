@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll';
 
-function Header() {
+function Header({ toggleTheme }) {
     return (
         <header>
             <nav>
@@ -11,7 +11,11 @@ function Header() {
                     <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
                 </ul>
             </nav>
+            <button className="theme-toggle-button" onClick={toggleTheme}>
+                Toggle Theme
+            </button>
         </header>
     );
 }
+
 export default Header;

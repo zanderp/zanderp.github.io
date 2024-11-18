@@ -1,7 +1,21 @@
+/* General styling for the App component */
 .App {
   text-align: center;
 }
 
+/* Dark theme styling */
+.App.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Light theme styling */
+.App.light {
+  background-color: #f4f4f4;
+  color: #333333;
+}
+
+/* Logo styling remains the same */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,6 +27,7 @@
   }
 }
 
+/* Header styling for each theme */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +39,30 @@
   color: white;
 }
 
+.App.dark .App-header {
+  background-color: #333;
+  color: #fff;
+}
+
+.App.light .App-header {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Link colors for each theme */
 .App-link {
   color: #61dafb;
 }
 
+.App.dark .App-link {
+  color: #bb86fc;
+}
+
+.App.light .App-link {
+  color: #1e88e5;
+}
+
+/* Logo spin animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
