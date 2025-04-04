@@ -1,0 +1,49 @@
+{
+    "name": "client",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@react-three/drei": "^9.121.4",
+        "@react-three/fiber": "^8.17.12",
+        "bootstrap": "^5.3.3",
+        "gh-pages": "^6.3.0",
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.10.8",
+        "react-dom": "^18.2.0",
+        "react-gravatar": "^2.6.3",
+        "react-modal": "^3.16.1",
+        "react-router-dom": "^6.8.1",
+        "react-scripts": "5.0.1",
+        "sass": "^1.83.4",
+        "three": "^0.172.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "proxy": "http://localhost:5000",
+    "homepage": "https://alexandru.rocks"
+}

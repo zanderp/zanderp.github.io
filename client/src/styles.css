@@ -1,0 +1,97 @@
+/* Base styles */
+.profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Skill pills */
+.skills-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.skill-pill {
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: transform 0.2s;
+}
+
+.skill-pill:hover {
+  transform: translateY(-2px);
+}
+
+/* Job tech tags */
+.tech-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech-tag {
+  background: #e9ecef;
+  color: #495057;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+/* Modal content */
+.modal-content {
+  display: grid;
+  gap: 1rem;
+}
+
+.project-chips {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.project-chip {
+  background: #f8f9fa;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  border: 1px solid #dee2e6;
+}
+
+.achievements-list {
+  color: #2c3e50;
+  padding-left: 1.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer {
+  background-color: #343a40;
+  font-size: 0.875rem;
+
+  a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
