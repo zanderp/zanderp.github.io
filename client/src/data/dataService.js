@@ -1,6 +1,6 @@
 export const DataService = {
     async getProfile() {
-        const response = await fetch('/api/profile');
+        const response = await fetch('https://server.alexandru.rocks/api/profile');
         return response.json();
     },
 
@@ -38,7 +38,7 @@ export const DataService = {
     },
 
     async getCookiePolicy() {
-        const response = await fetch('/api/cookie-policy');
+        const response = await fetch('https://server.alexandru.rocks/api/cookie-policy');
         return response.json();
     }
 };
