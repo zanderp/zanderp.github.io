@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const profileRoutes = require('./routes/profileRoutes');
 const cookieRoutes = require('./routes/cookieRoutes');
+const mapRoutes = require('./routes/mapRoutes');
 
 const app = express();
 
@@ -12,6 +13,7 @@ app.use(express.json());
 // Routes
 app.use('/api/profile', profileRoutes);
 app.use('/api/cookie-policy', cookieRoutes);
+app.use('/api/maps', mapRoutes);
 
 // Serve static files from React app
 if (process.env.NODE_ENV === 'production') {
