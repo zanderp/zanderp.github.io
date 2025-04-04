@@ -1,0 +1,117 @@
+{
+  "profile": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+40 0700000000",
+    "location": "Bucharest, Romania",
+    "aboutMe": {
+      "description": "I'm a full-stack developer passionate about building cool stuff with code. I love working with React, Node.js, and IoT hardware. When I'm not coding, I'm probably 3D printing something or tinkering with my home automation setup."
+    },
+    "socialLinks": [
+      {
+        "icon": "bi-linkedin",
+        "url": "https://linkedin.com/in/john-doe",
+        "label": "LinkedIn"
+      },
+      {
+        "icon": "bi-github",
+        "url": "https://github.com/johndoe",
+        "label": "GitHub"
+      },
+      {
+        "icon": "bi-envelope",
+        "url": "mailto:john.doe@example.com",
+        "label": "Email"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Full-Stack Development",
+        "relevance": 10,
+        "keywords": [
+          "React.js",
+          "Node.js",
+          "MongoDB",
+          "Express.js",
+          "HTML",
+          "CSS",
+          "REST APIs"
+        ]
+      },
+      {
+        "name": "DevOps & Infrastructure",
+        "relevance": 9,
+        "keywords": [
+          "Docker",
+          "GitHub Actions",
+          "Linux",
+          "CI/CD Pipelines"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Certified Web Developer",
+        "url": "https://example.com/cert",
+        "image": "cert-placeholder.jpeg",
+        "issuer": "Example Academy"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer - Tech Company",
+        "date": "01/2020 - Present",
+        "description": "Built and maintained scalable web applications and APIs for B2B clients.",
+        "responsibilities": [
+          "Designed and implemented RESTful APIs",
+          "Collaborated with frontend teams to build seamless UIs"
+        ],
+        "projects": ["CoolApp.io"],
+        "technologies": [
+          "Node.js",
+          "React",
+          "MongoDB",
+          "Docker"
+        ],
+        "achievements": [
+          "Reduced API response time by 50%",
+          "Built reusable component library"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "University of Technology",
+        "dates": "2015 - 2019",
+        "location": "Timisoara, Romania",
+        "description": "Focused on web technologies and software architecture."
+      }
+    ]
+  },
+  "cookiePolicy": {
+    "description": "We use cookies to improve your experience. You can adjust your preferences any time.",
+    "categories": {
+      "strictlyNecessary": "These cookies are essential for the website to function properly.",
+      "analytics": "These cookies help us analyze traffic and usage patterns.",
+      "marketing": "These cookies help personalize ads based on your interests.",
+      "functional": "These cookies remember your settings and preferences."
+    }
+  },
+  "trackingScripts": {
+    "analytics": [
+      {
+        "name": "Google Analytics",
+        "script": "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-Y",
+        "inline": "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-XXXXXX-Y');"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Facebook Pixel",
+        "script": "https://connect.facebook.net/en_US/fbevents.js",
+        "inline": "fbq('init', '0000000000'); fbq('track', 'PageView');"
+      }
+    ]
+  }
+}
